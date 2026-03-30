@@ -1,0 +1,27 @@
+# Ambientes Virtuais
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dados Temporários e Exportações (para manter o banco limpo)
+*.csv
+*.xlsx
+*.log
+
+# Arquivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE
+.vscode/
+*.code-workspace
+
+# Arquivos de imagem/texto de rascunho
+calc.png
+creatingtables.txt
+docker_check_db.txt
