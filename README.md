@@ -1,6 +1,6 @@
 # Smart Injection - Full-Stack OEE System
 
-[![Streamlit App](https://oee-dashboard-iqk9lse8jpgyrp5eey8rqq.streamlit.app/)
+[![Streamlit App](https://oee-dashboard-iqk9lse8jpgyrp5eey8rqq.streamlit.app/)]
 
 A comprehensive industrial IoT solution for monitoring **Overall Equipment Effectiveness (OEE)** in real-time. This project bridges the gap between shop-floor data collection and executive-level decision-making.
 
