@@ -1,6 +1,6 @@
 # Smart Injection - Full-Stack OEE System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://SEU-LINK-AQUI.streamlit.app)
+[![Streamlit App](https://oee-dashboard-iqk9lse8jpgyrp5eey8rqq.streamlit.app/)
 
 A comprehensive industrial IoT solution for monitoring **Overall Equipment Effectiveness (OEE)** in real-time. This project bridges the gap between shop-floor data collection and executive-level decision-making.
 
@@ -9,7 +9,7 @@ A comprehensive industrial IoT solution for monitoring **Overall Equipment Effec
 </p>
 
 <p align="center">
-  <a href="https://SEU-LINK-AQUI.streamlit.app">
+  <a href="https://oee-dashboard-iqk9lse8jpgyrp5eey8rqq.streamlit.app/">
     <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
   </a>
   <img src="https://img.shields.io/badge/Database-PostgreSQL-blue?style=flat&logo=postgresql" alt="Postgres">
@@ -28,11 +28,14 @@ A comprehensive industrial IoT solution for monitoring **Overall Equipment Effec
 
 ![Dashboard Preview](./dashboard_images/dashboard.gif)
 
-## 🎯 The Challenge
-In plastic injection molding, tracking performance is often manual and prone to errors. This project solves three main issues:
-1. **Dynamic Mold Allocation:** Calculating OEE fairly when machines switch molds mid-shift.
-2. **Real-Time Visibility:** Moving away from paper logs to a digital SQL-backed system.
-3. **Traceability:** Correlating downtime events directly with specific mold/machine pairs.
+🎯 The Challenge: Digital Transformation in Injection Molding
+In high-volume plastic injection environments, performance tracking is often fragmented, manual, and prone to data silos. This project was engineered to solve three critical operational bottlenecks:
+
+Complex OEE Calculation: Traditional methods struggle with "Fair OEE" when machines switch molds mid-shift. I implemented logic to dynamically recalculate availability and performance based on specific mold/machine cycle times.
+
+Data Modernization (Legacy to Cloud): Transitioning from error-prone paper logs and isolated spreadsheets to a centralized, Cloud-backed SQL architecture (Supabase), ensuring a "single source of truth."
+
+Granular Traceability: Establishing a relational link between downtime events and specific mold/machine pairs to identify hidden patterns in equipment failure or mold wear.
 
 ## 🛠️ Tech Stack
 - **Frontend:** PHP (Data Entry Forms for Operators).
@@ -47,14 +50,6 @@ In plastic injection molding, tracking performance is often manual and prone to 
 - `/dashboard`: The interactive Streamlit dashboard.
 - `/database`: SQL initialization scripts.
 - `/dashboard_images`: Visual assets and performance screenshots.
-
-## 🧮 The "Smart" Logic: OEE Calculation
-Unlike basic OEE calculators, this system uses **Dynamic Loading Time**.
-If a machine runs multiple molds in a 480-minute shift, the system automatically redistributes the available time based on the number of molds used:
-
-$$\text{Allocated Time} = \frac{480 \text{ min}}{\text{Number of Molds per Day}}$$
-
-This ensures that a mold used for only 2 hours isn't penalized with 8 hours of availability loss.
 
 ## 📸 Screenshots
 <p align="center">
@@ -71,4 +66,4 @@ This ensures that a mold used for only 2 hours isn't penalized with 8 hours of a
 4. **Launch Dashboard:** `streamlit run dashboard/dashboard.py`
 
 ---
-**Author:** Ricardo Serenato Junior  
+**Author:** Ricardo Serenato Junior (https://www.linkedin.com/in/ricardoserenatojr/) 
