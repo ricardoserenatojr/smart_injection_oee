@@ -2,26 +2,30 @@
 .venv/
 venv/
 env/
+.env
+
+# SEGURANÇA: Ignorar apenas as senhas do Streamlit
+.streamlit/secrets.toml
 
 # Python Cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Dados Temporários e Exportações (para manter o banco limpo)
+# Dados e Logs (Mantém o repo limpo)
 *.csv
 *.xlsx
 *.log
 
-# Arquivos de Sistema
+# Arquivos de Sistema e IDE
 .DS_Store
 Thumbs.db
-
-# Configurações de IDE
 .vscode/
 *.code-workspace
 
-# Arquivos de imagem/texto de rascunho
+# Rascunhos e Arquivos de Suporte Local
 calc.png
 creatingtables.txt
 docker_check_db.txt
+docker-compose.yml
+dashboard_images/
