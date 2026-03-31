@@ -19,7 +19,7 @@ A comprehensive industrial IoT solution for monitoring **Overall Equipment Effec
 | :--- | :--- | :--- |
 | **[Frontend]** | <img src="https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white" /> | Interface de apontamento para os operadores. |
 | **[Processing]** | <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | Engine de cálculo de OEE com Numpy/Pandas. |
-| **[Database]** | <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" /> | Armazenamento relacional em nuvem (PostgreSQL). |
+| **[Database]** | <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> | Armazenamento relacional em nuvem (PostgreSQL). |
 | **[Dashboard]** | <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> | Visualização de KPIs e análise de qualidade. |
 
 ---
