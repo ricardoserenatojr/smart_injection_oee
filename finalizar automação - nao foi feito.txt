@@ -1,0 +1,9 @@
+Copie e cole este prompt na próxima vez:
+"Olá, Gemini! Vamos retomar o projeto Smart Injection OEE. Já finalizamos o repositório, o dashboard no Streamlit (conectado ao Supabase) e os formulários PHP via Docker. O objetivo agora é automatizar o script Python (compute_oee.py) para que o ciclo de dados seja 100% autônomo. Preciso que você me guie na melhor estratégia de automação (GitHub Actions ou integração direta no Streamlit) para que os dados do formulário atualizem o dashboard sem intervenção manual. Onde paramos?"
+
+O que deixamos "no gatilho" para a volta:
+Configuração de Secrets: Vamos precisar configurar as chaves do Supabase no GitHub ou no Streamlit Cloud para o script rodar de forma segura.
+
+Trigger de Automação: Decidir se o cálculo roda por tempo (ex: a cada 1 hora) ou por evento (toda vez que o dashboard é aberto).
+
+Deploy Final: Garantir que, uma vez automatizado, você não precise mais abrir o terminal para nada; apenas olhar o celular/PC e ver os dados subindo.

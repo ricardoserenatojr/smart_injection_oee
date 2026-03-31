@@ -7,7 +7,7 @@ A comprehensive industrial IoT solution for monitoring **Overall Equipment Effec
 </p>
 
 <p align="center">
-  <a href="https://smartinjectionoee.streamlit.app/">
+  <a href="https://oee-dashboard-iqk9lse8jpgyrp5eey8rqq.streamlit.app/">
     <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
   </a>
   <img src="https://img.shields.io/badge/Database-Supabase-3ECF8E?style=flat&logo=supabase" alt="Supabase">
