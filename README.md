@@ -61,8 +61,11 @@ In high-volume plastic injection environments, performance tracking is often fra
 To ensure data integrity, I developed dedicated PHP forms for shop-floor operators. These forms allow for real-time reporting of production output and downtime reasons, directly feeding the Supabase database.
 
 <p align="center">
-  <img src="./images/php1.png" width="45%" alt="Production Entry Form" />
   <img src="./images/php.png" width="45%" alt="Downtime Entry Form" />
+</p>
+
+<p align="center">
+  <img src="./images/php1.png" width="45%" alt="Production Entry Form" />
 </p>
 
 ## ⚙️ How to Run
