@@ -51,10 +51,18 @@ In high-volume plastic injection environments, performance tracking is often fra
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="./dashboard_images/main.png" width="45%" />
-  <img src="./dashboard_images/main1.png" width="45%" />
-  <img src="./dashboard_images/main2.png" width="45%" />
-  <img src="./dashboard_images/main3.png" width="45%" />
+  <img src="./images/main.png" width="45%" />
+  <img src="./images/main1.png" width="45%" />
+  <img src="./images/main2.png" width="45%" />
+  <img src="./images/main3.png" width="45%" />
+</p>
+
+## 📝 Operator Interface (Data Entry)
+To ensure data integrity, I developed dedicated PHP forms for shop-floor operators. These forms allow for real-time reporting of production output and downtime reasons, directly feeding the Supabase database.
+
+<p align="center">
+  <img src="./images/php1.png" width="45%" alt="Production Entry Form" />
+  <img src="./images/php.png" width="45%" alt="Downtime Entry Form" />
 </p>
 
 ## ⚙️ How to Run
